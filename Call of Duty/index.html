@@ -4,211 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Call of Duty</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<header>
-    <nav>
-        <section class="menu-barras">
-            <a href="#menu" id="menu-toggle">&#9776;</a>
+    <header>
+        <nav>
+            <section id="seccion1">
+                <a id="menu-barras" href="#menu">&#9776;</a>
+                <a id="logo" href="https://www.callofduty.com/es" target="_blank">
+                    <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/global/cod-logo.svg" alt="Logo" width="100">
+                </a>  
+                <ul>
+                    <li class="menu"><a href="#">JUEGOS</a></li>
+                    <li class="menu"><a href="#">NOTICIAS</a></li>
+                    <li class="menu"><a href="#">TIENDA</a></li>
+                    <li class="menu"><a href="#">ESPORTS</a></li>
+                    <li class="menu"><a href="#">SOPORTE</a></li>
+                </ul>
+            </section>
+
+            <section id="seccion2">
+                <a href="https://profile.callofduty.com/cod/login?redirectUrl=https%3A%2F%2Fwww.callofduty.com%2Fes&promo=cer" class="button">INICIAR SESIÓN</a>              
+                <a href="https://www.callofduty.com/es/playnow/blackops6" class="button">RESERVA BO6</a>              
+            </section>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <p>Descubre las últimas novedades y características.</p>
+        <section class="button-container">
+            <button>Ver Más</button>
         </section>
-        <section class="logo">
-            <a href="#logo"><img src="logo.png" alt="Logo" width="100"></a>
+    </section>
+
+
+
+
+
+
+
+    <section id="noticias" class="noticias">
+        <section class="noticias-contenedor">
+            <!-- Columna Principal -->
+            <section class="noticias-columna noticias-principal">
+                <section class="noticias-card">
+                    <section class="noticias-card-imagen">
+                        <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/hub/v2023/touts/2024/07/BLACKCELL_S05_BNET_867x376_4SEC_static.webp" alt="Proyecto 1">
+                        <section class="noticias-card-contenido">
+                            <h3>BLACKCELL</h3>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            
+            <!-- Columna Secundaria -->
+            <section class="noticias-columna noticias-secundaria">
+                <h2>NOTICIAS</h2>
+                <a href="https://www.callofduty.com/modernwarfare3">
+                  <section class="info-card" >
+                    <h3>MODERN WARFARE III</h3>
+                    <p>SUBETE AL RING</p>
+                  </section>
+                </a>
+                <a href="https://www.callofduty.com/warzone">
+                  <section class="info-card">
+                      <h3>TEMPORADA 5 DE WZ</h3>
+                      <p>VUELVE SUPERSTORE</p>
+                  </section>
+                </a>  
+            </section>
         </section>
-        
-        
-        <ul id="menu">
-          <li><a href="#juegos">JUEGOS+</a></li>
-          <li><a href="#noticias">NOTICIAS+</a></li>
-          <li><a href="#tienda">TIENDA</a></li>
-          <li><a href="#esports">ESPORTS+</a></li>
-          <li><a href="#soporte">SOPORTE</a></li>
-        </ul>
-        
-        <section>
-            <button class="button" onclick="window.location.href='/iniciar-sesion';"> <img src="logo.png"> INICIAR SESIÓN </button> 
-        </section>
+    </section>
+
+
+
+    <section id="cta" class="cta">
+        <div class="cta-content">
+            <h2>¡Hazte con el juego!</h2>
+            <p>Experimenta la emoción y la acción del nuevo Call of Duty. ¡Compra o reserva ahora para no perderte nada!</p>
+            <a href="https://www.callofduty.com/es/playnow" class="cta-button">¡Compra Ahora!</a>
+        </div>
+    </section>
     
-        <section>
-        
-        <button class="button" onclick="window.location.href='/reserva';">RESERVA B06</button>
-        
-        </section>
-
-        <section><a href="#img"><img src="img.png" alt="IMG" width="100"></a></section>
-        
-        <h3>
-        Obligados a rebelarse. Perseguidos desde dentro.
-Esto es Black Ops 6.
-        </h3>
-        
-        <button class="button" onclick="window.location.href='/reserva';">MÁS INFORMACIÓN</button>
-        
-        
-       
-        
-        
-    </nav>
- </header>
-
-<main>
-  <section id="cuerpo">
-      <section id="seccion1">
-          <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-          <h2><img src="logo.png">BLACKHELL</h2>
-          <p>Atormenta a tus enemigos como el espantoso Reckoner, avanza en el Pase de batalla, y más.</p>
-          <h5>Sube de nivel</h5>
-      </section>
-
-      <section id="seccion2">
-           <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-          <h4>MODEN WARFARE III</h4>
-          <h2>SÚBETE AL RING</h2>
-          <h5>MÁS INFORMACIÓN</h5>
-      </section>
-
-     <section id="seccion3">
-             <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-            <h4>TEMPORADA 5 DE WZ</h4>
-            <h2>VUELVE SUPERSTORE</h2>
-            <h5>DESPLIÉGATE YA</h5>
-        </section>
-
-     <section>
-
-         <h2>NOTICIAS</h2>
-         <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-         <h3>Modo Zombies de Black Ops 6: qué necesitas saber</h3>
-         <button class="button" onclick="window.location.href='/reserva';">B06</button>
-         <P>12 DÍAS ATRÁS</P>
-
-
-         <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-         <h3>Zombies de Black Ops 6: la historia hasta ahora</h3>
-         <button class="button" onclick="window.location.href='/reserva';">B06</button>
-         <P>14 DÍAS ATRÁS</P>
-
-
-         <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-         <h3>Presentamos la Temporada 7 de Call of Dutty: Mobile - Ghost eterno</h3>
-         <button class="button" onclick="window.location.href='/reserva';">C0DM</button>
-         <P>26 DÍAS ATRÁS</P>
-
-
-           <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-         <h3>BlackCell, Pase de batalla y lotes de la Temporada 5</h3>
-         <button class="button" onclick="window.location.href='/reserva';">MWIII</button>
-         <button class="button" onclick="window.location.href='/reserva';">WZ</button>
-         <button class="button" onclick="window.location.href='/reserva';">WZM</button>
-         <P>26 DÍAS ATRÁS</P>
-
-        <button class="button" onclick="window.location.href='/reserva';">DESCUBRE MÁS NOTICIAS</button>
-
-
-     </section>
-     <section>
-
-       <h2>HAZTE CON EL JUEGO:</h2>
-
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <P>CALL OF DUTY</P>
-       <h5>BLACKOPS 6</h5>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <P>CALL OF DUTY</P>
-       <h5>MODERN WARFARE III</h5>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <P>CALL OF DUTY</P>
-       <h5>WARZONE</h5>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <h5>JUEGA GRATIS</h5>
-       
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <P>CALL OF DUTY</P>
-       <h5>WARZONE MOBILE</h5>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <h5>JUEGA GRATIS</h5>
-       
-        <button class="button" onclick="window.location.href='/reserva';">DESCUBRE MÁS EN LA TIENDA</button>
-       
-
-
-
-     </section>
-
-
-
-
-
-
-  </section>
-</main>
-<footer>
-  
-  <section>
     
-  <p> INFORMACIÓN LEGAL</p>
-  <p> TÉRMINOS DE USO</p>
-  <p> POLÍTICA DE PRIVACIDAD</p>
-  <p> TRABAJO</p>
-  <p> POLÍTICA DE COOKIES</p>
-  <p> SOPORTE</p>
-  <p> CÓDIGO DE CONDUCTA</p>
     
-  </section>
+    
+    
 
-  
-  <section>
-    
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>          
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
 
     
-  </section>
-  
-  <section>
-  
-      <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-      <p> © 2024 Activision Publishing, Inc. ACTIVISION, CALL OF DUTY, CALL OF DUTY LEAGUE, CALL OF DUTY MODERN WARFARE, MODERN WARFARE, CALL OF DUTY BLACK OPS, CALL OF DUTY WARZONE, WARZONE y CALL OF DUTY VANGUARD son marcas comerciales de Activision Publishing, Inc. El resto de marcas comerciales y nombres de marcas pertenecen a sus respectivos titulares.</p>
-      
-      
-       <button class="button" onclick="window.location.href='/reserva';">CONFIGURACIÓN DE COOKIES</button>
-       
-       <a href="#img"><img src="img.png" alt="IMG" width="100"></a>
-  
-  </section>
-  
-  
 
-    
-  
-</footer>
+    </section>
+    <footer>
+        <p>&copy; 2024. Todos los derechos reservados.</p>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,263 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background-color: #2a2929;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0 20px;
+}
+
+#seccion1 {
+    display: flex;
+    align-items: center;
+}
+
+#menu-barras {
+    font-size: 24px;
+    margin-right: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#logo img {
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#seccion2 {
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    background-color: #ff0000;
+    border: none;
+    color: #ffffff;
+    padding: 10px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+
+    
+}
+
+.button:hover {
+    background-color: #ffffff;
+}
+
+.hero {
+    position: relative;
+    background: url('https://imgs.callofduty.com/content/dam/atvi/callofduty/cod-touchui/hub/v2023/hero/2024/08/CodHP_BetaHero.webp') no-repeat center center;
+    background-size: cover; 
+    background-attachment: scroll; 
+    color: #ffffff;
+    text-align: center;
+    padding: 150px 20px; 
+    height: 45vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: -1;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin: 30px 0; 
+}
+
+.hero button {
+    background: #ff0000;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 40px; 
+    text-transform: uppercase; 
+    border-radius: 5px; 
+}
+
+
+
+
+
+.noticias {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+
+.about, .noticias, .contact {
+    text-align: left; 
+}
+
+
+.about h2, .noticias h2, .contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+
+.noticias-contenedor {
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+.noticias-principal {
+    flex: 2; 
+    margin-right: 20px;
+}
+
+
+.noticias-secundaria {
+    flex: 1; 
+}
+
+
+.noticias-card {
+    background: #f4f4f4;
+    padding: 0; 
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+
+.noticias-card-imagen {
+    position: relative; 
+    margin-bottom: 15px; 
+}
+
+.noticias-card-imagen img {
+    width: 100%; 
+    border-radius: 8px; 
+}
+
+
+.noticias-card-contenido {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.5); 
+    color: #fff;
+    border-radius: 0 0 8px 8px; 
+    width: 100%; 
+    box-sizing: border-box; 
+}
+
+
+.info-card {
+    background: #e4e4e4;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    box-sizing: border-box; 
+    text-align: left; 
+}
+
+
+
+
+
+
+.cta {
+    background: #000000; 
+    color: #fff; 
+    padding: 40px 20px; 
+    text-align: center; 
+}
+
+.cta-content {
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+.cta h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.cta p {
+    font-size: 1.2em; 
+    margin-bottom: 30px; 
+}
+
+.cta-button {
+    background-color: #ff0000; 
+    color: #fff; 
+    padding: 15px 30px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    font-size: 1.2em; 
+    display: inline-block; 
+}
+
+.cta-button:hover {
+    background-color: #e60000; 
+}
+
+
+
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+}
