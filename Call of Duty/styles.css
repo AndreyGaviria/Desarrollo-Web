@@ -59,21 +59,25 @@ nav ul li a {
 }
 
 .button {
-    background-color: #ff0000;
-    border: none;
-    color: #ffffff;
-    padding: 10px 10px;
-    margin-left: 10px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    border-radius: 15px;
+
+    display: inline-block; 
+    padding: 10px 10px; 
+    margin: 10px; 
+    background-color: #ff0000; 
+    color: #ffffff; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 15px; 
+    font-size: 16px;
+    font-weight: bold; 
+    transition: background-color 0.3s, color 0.3s;
 
     
 }
 
 .button:hover {
-    background-color: #ffffff;
+    background-color: #bf0000; 
+    color: #e0e0e0; 
 }
 
 .hero {
@@ -164,7 +168,7 @@ nav ul li a {
 
 
 .noticias-card {
-    background: #f4f4f4;
+    background: #ff0000;
     padding: 0; 
     margin: 15px 0;
     border-radius: 8px;
@@ -185,6 +189,8 @@ nav ul li a {
 }
 
 
+
+
 .noticias-card-contenido {
     position: absolute;
     bottom: 0; 
@@ -199,7 +205,7 @@ nav ul li a {
 
 
 .info-card {
-    background: #e4e4e4;
+    background: #c30000;
     padding: 15px;
     margin: 15px 0;
     border-radius: 8px;
@@ -207,6 +213,44 @@ nav ul li a {
     width: 100%; 
     box-sizing: border-box; 
     text-align: left; 
+}
+
+
+.info-card h3 {
+    color: #333; 
+}
+
+
+.info-card p {
+    color: #000000; 
+}
+
+
+
+
+
+.info-card-button {
+    display: block;
+    text-decoration: none; 
+    border: none; 
+    background: transparent; 
+}
+
+.info-card-button .info-card {
+    background: #ff0000; 
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.info-card-button .info-card:hover {
+    background: #ffffff; 
+    transform: scale(1.02); 
 }
 
 
