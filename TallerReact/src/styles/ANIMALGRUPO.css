@@ -1,0 +1,12 @@
+/* ANIMALGRUPO.css */
+
+.animal-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #e8f5e9;
+    border-radius: 8px;
+}

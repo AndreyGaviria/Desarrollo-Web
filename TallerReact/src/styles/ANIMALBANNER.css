@@ -1,0 +1,21 @@
+/* ANIMALBANNER.css */
+
+.animal-banner {
+    background-color: lightgreen;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.animal-banner h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
