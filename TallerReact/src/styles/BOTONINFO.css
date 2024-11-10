@@ -1,0 +1,20 @@
+/* src/styles/BOTONINFO.css */
+.boton-info {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .boton-info:hover {
+    background-color: #45a049; /* Verde más oscuro cuando el mouse pasa encima */
+  }
+  
+  /* Si quieres evitar que el enlace afecte el estilo */
+  .boton-info-link {
+    text-decoration: none; /* Quita el subrayado del enlace */
+  }
+  
