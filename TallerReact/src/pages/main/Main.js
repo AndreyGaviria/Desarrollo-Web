@@ -5,12 +5,14 @@ import { Outlet } from "react-router-dom"; // Este Outlet renderiza las rutas hi
 import LoaderAllItems from "../../services/LoaderAllItems";
 
 const Main = () => {
+
+  const url = `https://catfact.ninja/fact`
   const [cleanDataDetail, setCleanDataDetail] = useState([]); 
 
   useEffect(() => {
     // Aquí puedes cargar datos si es necesario
     LoaderAllItems(setCleanDataDetail, url, );
-  }, [selectLea]);
+  }, [setcleanDataDetail]);
 
   return (
     <div>
