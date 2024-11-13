@@ -1,3 +1,4 @@
+
 // Home.js
 import React from "react";
 import ANIMALBANNER from "../../components/ANIMALBANNER";
@@ -25,3 +26,4 @@ const Home = () => {
 };
 
 export default Home;
+

@@ -1,3 +1,4 @@
+
 // DESCRIPCIONANIMAL.js
 import React from 'react';
 import '../styles/DESCRIPCIONANIMAL.css';
@@ -12,3 +13,4 @@ const DESCRIPCIONANIMAL = () => {
 };
 
 export default DESCRIPCIONANIMAL;
+

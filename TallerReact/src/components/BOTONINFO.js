@@ -1,3 +1,4 @@
+
 // src/components/BOTONINFO.js
 import React from 'react';
 import { Link } from 'react-router-dom'; // Importamos Link de react-router-dom

@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import '../styles/ANIMALBANNER.css';
 
@@ -27,3 +28,5 @@ const ANIMALBANNER = () => {
 };
 
 export default ANIMALBANNER;
+
+

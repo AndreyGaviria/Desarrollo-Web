@@ -1,3 +1,4 @@
+
 import React from 'react'
 
 const TableMain = ({ data }) => {
@@ -23,4 +24,3 @@ const TableMain = ({ data }) => {
     )
 }
 
-export default TableMain
