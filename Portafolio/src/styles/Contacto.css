@@ -1,0 +1,128 @@
+.contacto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f2eaea;
+    font-family: Arial, sans-serif;
+}
+
+/* Sección del logo */
+.logo-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.logo-img {
+    width: 150px;
+}
+
+.logo-section h1 {
+    font-size: 1.5em;
+    color: #34597a;
+}
+
+/* Sección de paisaje */
+.paisaje {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+
+.cielo {
+    background-color: #d3e8f3;
+    height: 150px;
+    border-top-left-radius: 50% 40%;
+    border-top-right-radius: 50% 40%;
+    position: relative;
+}
+
+.nube {
+    background-color: white;
+    width: 50px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+}
+
+.nube:first-child {
+    left: 20px;
+}
+
+.nube:last-child {
+    right: 20px;
+}
+
+.tierra {
+    background-color: #7abf4c;
+    height: 50px;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+
+/* Formulario de contacto */
+.form-section {
+    background-color: #d3e8f3;
+    padding: 20px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form-section h2 {
+    color: #34597a;
+    margin: 10px 0;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #34597a;
+    margin: 10px 0;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    background-color: #34597a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #2a4662;
+}
+
+/* Redes sociales */
+.redes-sociales {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.blue {
+    background-color: #34597a;
+}
+
+.dark-blue {
+    background-color: #2a4662;
+}
+
+.gray {
+    background-color: #b2bbc6;
+}

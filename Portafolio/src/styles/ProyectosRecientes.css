@@ -1,0 +1,107 @@
+/* Estilos generales */
+.proyectos-container {
+    display: flex;
+    background-color: #d3e8f3;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 20%;
+    text-align: center;
+}
+
+.sidebar h2 {
+    font-size: 1.5em;
+    color: #34597a;
+}
+
+.ia-image {
+    margin: 20px 0;
+}
+
+.ia-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.ia-image p {
+    font-weight: bold;
+    color: #34597a;
+}
+
+.sonido-button {
+    background-color: white;
+    color: #34597a;
+    border: 1px solid #34597a;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.sonido-button:hover {
+    background-color: #34597a;
+    color: white;
+}
+
+/* Main Content */
+.proyectos-main {
+    width: 80%;
+}
+
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #34597a;
+}
+
+.proyectos-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Tarjetas de proyecto */
+.proyecto-card {
+    background-color: #7a92a5;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    color: white;
+    font-size: 0.9em;
+}
+
+.proyecto-card.tecnologia {
+    background-color: #2b4c3f;
+}
+
+.proyecto-card.arte {
+    background-color: #3c5b75;
+}
+
+.proyecto-card.ciencias {
+    background-color: #b2bbc6;
+}
+
+.proyecto-icon {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.proyecto-card p {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.mas-icono {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2em;
+    color: white;
+}

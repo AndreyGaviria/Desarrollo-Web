@@ -1,0 +1,113 @@
+/* Estilos generales */
+.presentacion-container {
+    background-color: #d3e8f3;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .presentacion-header {
+    background-color: #34597a;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .presentacion-header h1 {
+    margin: 0;
+  }
+  
+  .presentacion-header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  /* Tarjeta de perfil */
+  .profile-card {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .profile-image img {
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+  }
+  
+  .profile-info h2 {
+    font-size: 1.5em;
+    color: #2b4c3f;
+    margin: 0;
+  }
+  
+  .profile-info p {
+    background-color: #e3e3e3;
+    padding: 10px;
+    border-radius: 10px;
+    color: #333;
+  }
+  
+  .logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: center;
+  }
+  
+  .logo img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Categorías */
+  .categories {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .category {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    border: none;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  
+  .art {
+    background-color: #2b4c3f;
+  }
+  
+  .science {
+    background-color: #3c5b75;
+  }
+  
+  .technology {
+    background-color: #b2bbc6;
+  }
+  
+  /* Botón de contacto */
+  .contact-button {
+    background-color: white;
+    color: #34597a;
+    border: 1px solid #34597a;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .contact-button:hover {
+    background-color: #34597a;
+    color: white;
+  }
+  
